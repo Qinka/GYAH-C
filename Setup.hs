@@ -30,8 +30,8 @@ main = do
         ("*NoteMark","//"),
         ("*SrcAhead","C_"),
         ("*SrcBack",".c"),
-        ("*COB",""),
-        ("*COE",""),
+        ("*COB","CompilerExtraOptionsBegin"),
+        ("*COE","CompilerExtraOptionsEnd"),
         ("*ImportAhead","#include<"),
         ("*ImportBack",">\n"), -- need break a new line
         ("*FE","c"),
