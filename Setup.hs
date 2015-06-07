@@ -4,7 +4,7 @@ import System.Directory
 import System.Environment
 import Data.List
 main = do
-    --your
+    --your 
     (x:_) <- getArgs
     if x == "configure" then do
             dir <- getAppUserDataDirectory "GiveYouAHead"
